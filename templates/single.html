@@ -1,0 +1,57 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0px","padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"}}},"backgroundColor":"background","className":"no-margin no-padding","layout":{"inherit":true,"type":"constrained"}} -->
+<main class="wp-block-group alignfull no-margin no-padding has-background-background-color has-background" style="padding-top:60px;padding-bottom:60px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"60px"}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"","style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
+<div class="wp-block-column" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:post-title {"textAlign":"center","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"content-heading"} /-->
+
+<!-- wp:group {"tagName":"main","className":"animated animated-fadeInUp","layout":{"inherit":true,"type":"constrained"}} -->
+<main class="wp-block-group animated animated-fadeInUp"><!-- wp:group {"align":"wide","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:post-featured-image {"width":"","height":"400px","scale":"contain","align":"center","style":{"spacing":{"margin":{"bottom":"0px","top":"0px","right":"0px","left":"0px"}}}} /-->
+
+<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"15px"}}} -->
+<div class="wp-block-group alignwide"><!-- wp:post-content {"align":"wide","layout":{"inherit":false}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></main>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"30%"} -->
+<div class="wp-block-column" style="flex-basis:30%"><!-- wp:template-part {"slug":"sidebar","tagName":"div"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></main>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":1,"query":{"perPage":"4","pages":0,"offset":0,"postType":"product","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"__woocommerceStockStatus":["instock","outofstock","onbackorder"]},"displayLayout":{"type":"flex","columns":4},"namespace":"woocommerce/product-query"} -->
+<div class="wp-block-query"><!-- wp:heading -->
+<h2 class="wp-block-heading">Featured Products</h2>
+<!-- /wp:heading -->
+
+<!-- wp:post-template -->
+<!-- wp:woocommerce/product-image {"isDescendentOfQueryLoop":true} /-->
+
+<!-- wp:post-title {"textAlign":"center","level":3,"isLink":true,"style":{"spacing":{"margin":{"top":"0","bottom":"0.75rem"}}},"fontSize":"medium"} /-->
+
+<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"textAlign":"center","style":{"spacing":{"margin":{"bottom":"0.75rem"}}}} /-->
+
+<!-- wp:woocommerce/product-button {"isDescendentOfQueryLoop":true,"textAlign":"center","style":{"spacing":{"margin":{"bottom":"0.75rem"}}}} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+<p></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
